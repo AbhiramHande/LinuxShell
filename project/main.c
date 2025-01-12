@@ -137,7 +137,7 @@ int exec_command(char** arg_list, long* arg_count){
     }
 
     int ret_val = -1;
-    fprintf(stdout, "Here");
+    //fprintf(stdout, "Here");
     switch (cmd_int){
         case 0:
             if(*arg_count > 2)
