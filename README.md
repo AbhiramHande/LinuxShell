@@ -21,6 +21,7 @@ This project is my attempt to clone the Linux shell in C. It provides basic func
 - **Output Redirection**:
   - Redirects `stdout` and `stderr` using `>` and `>>`.
 
+---
 ## Limitations
 
 - **No Piping**: The shell currently does not support chaining commands using pipes.
@@ -28,6 +29,7 @@ This project is my attempt to clone the Linux shell in C. It provides basic func
 - **No Input Redirection**: The shell does not currently support redirecting `stdin`.
 - **Missing Advanced Features**: Does not support features like command history, arrow key navigation for previously executed commands, or tab autocompletion.
 
+---
 ## Roadmap
 
 - Add support for command piping.
@@ -35,3 +37,7 @@ This project is my attempt to clone the Linux shell in C. It provides basic func
 - Introduce command history and navigation using arrow keys.
 - Add tab autocompletion for commands and paths.
 - Enhance input parsing for additional special characters (like `$`).
+
+### Currenlty Working On
+- Add tab autocompletion for commands and paths.
+
