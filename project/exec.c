@@ -265,6 +265,9 @@ char* listen(FILE* stream){
                 write(STDOUT_FILENO, buffer + index, num_chars - index);
                 index = num_chars;
             }
+            else{
+                write(STDOUT_FILENO, "\a", 1);
+            }
             break;
 
         case '\b':
